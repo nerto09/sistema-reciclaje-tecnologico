@@ -1,0 +1,32 @@
+=== CAPTURA 03 - Relaciones entre tablas (Foreign Keys) ===
+
+Tabla hija             Col                            -> Tabla padre              Col
+----------------------------------------------------------------------------------------------------
+ActasEntrega           id_gestor                      -> GestoresRAEE             id_gestor
+BorradosSeguros        id_equipo                      -> Equipos                  id_equipo
+BorradosSeguros        id_metodo                      -> MetodosBorrado           id_metodo
+BorradosSeguros        id_responsable_borrado         -> Responsables             id_responsable
+BorradosSeguros        id_responsable_verifica        -> Responsables             id_responsable
+Equipos                id_departamento                -> Departamentos            id_departamento
+Equipos                id_responsable                 -> Responsables             id_responsable
+EquiposEnActa          id_acta                        -> ActasEntrega             id_acta
+EquiposEnActa          id_borrado                     -> BorradosSeguros          id_borrado
+EquiposEnActa          id_equipo                      -> Equipos                  id_equipo
+Evaluaciones           id_equipo                      -> Equipos                  id_equipo
+Evaluaciones           id_responsable                 -> Responsables             id_responsable
+EvaluacionFisica       id_evaluacion                  -> Evaluaciones             id_evaluacion
+EvaluacionTecnica      id_evaluacion                  -> Evaluaciones             id_evaluacion
+Movimientos            id_equipo                      -> Equipos                  id_equipo
+Movimientos            id_estado                      -> EstadosMovimiento        id_estado
+Movimientos            id_responsable                 -> Responsables             id_responsable
+Reparaciones           id_equipo                      -> Equipos                  id_equipo
+Reparaciones           id_responsable                 -> Responsables             id_responsable
+
+Total: 19 relaciones
+
+=== CATALOGOS SEMILLA CARGADOS ===
+  dbo.EstadosMovimiento      ->  11 filas
+  dbo.MetodosBorrado         ->   3 filas
+  dbo.GestoresRAEE           ->   4 filas
+  dbo.Responsables           ->   3 filas
+  dbo.Departamentos          ->   6 filas

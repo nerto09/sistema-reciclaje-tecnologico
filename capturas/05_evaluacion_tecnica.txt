@@ -1,0 +1,14 @@
+=== CAPTURA 05 - Evaluaciones tecnicas registradas ===
+
+Codigo         Fecha        Clasificacion     Costo RD$ Viable Fisicas Tecnicas  Destino
+----------------------------------------------------------------------------------------------------------------------------------
+EQ-LAP-0001    2026-08-08   Reutilizable              -      -       7        4  Reasignacion a Recursos Humanos
+EQ-LAP-0002    2026-08-09   Reutilizable              -      -       7        4  Reasignacion a Almacen
+EQ-LAP-0003    2026-08-13   Reparable           4500.00     Si       7        4  Reparacion en taller interno de TI
+EQ-LAP-0004    2026-08-15   No recuperable      8200.00     No       7        4  Entrega a gestor autorizado
+EQ-MON-0001    2026-08-23   Reutilizable              -      -       7        4  Reasignacion a Ventas
+EQ-MON-0002    2026-08-24   No recuperable      6800.00     No       7        4  Entrega a gestor autorizado
+EQ-PC-0001     2026-08-18   Reutilizable              -      -       7        4  Reasignacion a Ventas
+EQ-PC-0002     2026-08-19   Reparable           3200.00     Si       7        4  Reparacion en taller interno de TI
+EQ-PC-0003     2026-08-21   No recuperable     12500.00     No       7        4  Entrega a gestor autorizado
+EQ-PC-0004     2026-08-22   Reutilizable              -      -       7        4  Reasignacion a Contabilidad

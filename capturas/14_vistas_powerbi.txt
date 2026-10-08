@@ -1,0 +1,62 @@
+=== CAPTURA 14 - Vistas SQL para Power BI ===
+
+Base de datos: GestionReciclajeTecnologico
+
+Vistas creadas: 11
+
+Vista                                        Cols
+----------------------------------------------------
+vw_bitacora_equipos                             7
+vw_equipos_completo                            17
+vw_indicador_borrado_documentado                3
+vw_indicador_compras_evitadas                   3
+vw_indicador_expedientes_completos              3
+vw_indicador_permanencia_almacen                4
+vw_indicador_raee_gestionados                   4
+vw_indicador_reparados                          6
+vw_indicador_reutilizados                       3
+vw_kpis_resumen                                 7
+vw_movimientos_detalle                         14
+
+
+=== SALIDA DE CADA INDICADOR (Cap. IV.7 T02) ===
+
+1. Equipos reutilizados          ->  80.00 %   (8 reasignados / 10 evaluados)
+2. Equipos reparados             ->      2    (2 intentos, RD$7,700.00 en recuperados)
+3. RAEE gestionados             ->   34.5 kg (4 equipos a Ecologix, S.R.L.)
+4. Borrado seguro documentado    -> 100.00 %   (4 constancias / 4 equipos que salieron)
+5. Permanencia en almacen        ->  14.50 dias promedio (min 6, max 33, n=12)
+6. Compras evitadas              -> RD$272,500.00 en 8 reasignaciones (promedio RD$34,062.50/equipo)
+7. Expedientes completos         ->  33.33 %   (5 cerrados / 15 equipos)
+
+
+=== MUESTRA vw_bitacora_equipos (formato T00 del proyecto) ===
+
+Codigo        Equipo                         Clasificacion    Ultimo estado                Decision
+------------------------------------------------------------------------------------------------------------------------
+EQ-IMP-0001   Impresora HP LaserJet Pro M404 -                EN_ALMACEN_TEMPORAL          -
+EQ-IMP-0002   Impresora Epson L3150          -                CERRADO                      -
+EQ-LAP-0001   Laptop Dell Latitude 3520      Reutilizable     REASIGNADO                   Reasignacion a Recursos Humanos
+EQ-LAP-0002   Laptop HP ProBook 450 G7       Reutilizable     REASIGNADO                   Reasignacion a Almacen
+EQ-LAP-0003   Laptop Lenovo ThinkPad E14     Reparable        REASIGNADO                   Reparacion en taller interno de TI
+EQ-LAP-0004   Laptop Acer Aspire 5           No recuperable   CERRADO                      Entrega a gestor autorizado
+EQ-LAP-0005   Laptop HP EliteBook 840        -                CERRADO                      -
+EQ-MON-0001   Monitor Dell P2419H            Reutilizable     REASIGNADO                   Reasignacion a Ventas
+EQ-MON-0002   Monitor LG 24MK430H            No recuperable   CERRADO                      Entrega a gestor autorizado
+EQ-MON-0003   Monitor Samsung F24T350FHL     -                EN_ALMACEN_TEMPORAL          -
+EQ-PC-0001    PC escritorio HP EliteDesk 800 Reutilizable     REASIGNADO                   Reasignacion a Ventas
+EQ-PC-0002    PC escritorio Dell OptiPlex 30 Reparable        REASIGNADO                   Reparacion en taller interno de TI
+EQ-PC-0003    PC escritorio Lenovo ThinkCent No recuperable   CERRADO                      Entrega a gestor autorizado
+EQ-PC-0004    PC escritorio HP ProDesk 400   Reutilizable     REASIGNADO                   Reasignacion a Contabilidad
+EQ-PC-0005    PC escritorio Dell Vostro 3681 -                EN_ALMACEN_TEMPORAL          -
+
+
+=== vw_kpis_resumen (fila unica para KPIs del dashboard) ===
+
+  pct_reutilizados       : 80.00
+  equipos_reparados      : 2
+  kg_raee_gestionados    : 34.50
+  pct_borrado_doc        : 100.00
+  dias_permanencia       : 14.500000
+  rd_compras_evitadas    : 272500.00
+  pct_expedientes        : 33.33

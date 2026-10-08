@@ -1,0 +1,7 @@
+=== CAPTURA 01 - Base de datos creada ===
+Servidor           : Cuervo
+Base de datos      : GestionReciclajeTecnologico
+Fecha de creacion  : 2026-09-26 21:00:13
+Tamano asignado    : 16.00 MB
+Autenticacion      : Windows (CUERVO/Jhonniel)
+Driver             : ODBC Driver 18 for SQL Server

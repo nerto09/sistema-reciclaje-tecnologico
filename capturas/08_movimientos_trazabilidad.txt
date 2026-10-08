@@ -1,0 +1,31 @@
+
+========================================================================
+  Historial del equipo EQ-LAP-0004
+========================================================================
+  #  Fecha                Estado                          Rol                     Observacion
+------------------------------------------------------------------------------------------------------------------------
+  1  2026-08-12 00:00:00  REGISTRADO                      Inventario y TI         Retiro y registro (paso 1 Cap. IV.2)
+  2  2026-08-13 00:00:00  EN_ALMACEN_TEMPORAL             Inventario y TI         Traslado al area de almacenamiento temporal
+  3  2026-08-14 00:00:00  EN_EVALUACION                   Evaluacion tecnica      Evaluacion tecnica iniciada
+  4  2026-08-16 00:00:00  CLASIFICADO_NO_RECUPERABLE      Evaluacion tecnica      Clasificacion: No recuperable
+  5  2026-09-10 00:00:00  BORRADO_SEGURO_APLICADO         Inventario y TI         Borrado seguro aplicado y verificado (SOBREESCRITURA)
+  6  2026-09-15 00:00:00  ENTREGADO_A_GESTOR              Coordinador             Entregado al gestor autorizado: Ecologix, S.R.L.
+  7  2026-09-16 00:00:00  CERRADO                         Coordinador             Expediente cerrado (paso 5 Cap. IV.2)
+
+
+=== ACTA DE ENTREGA AL GESTOR (Anexo E) ===
+
+Fecha              : 2026-09-15
+Gestor autorizado  : Ecologix, S.R.L.
+Numero autorizacion: P. Ambiental num. 4116-21
+Cantidad equipos   : 4
+Peso aproximado    : 34.50 kg
+Lugar de entrega   : Almacen central - Santo Domingo
+Equipos en el acta : 4
+
+Codigo         Tipo              Const. borrado
+-----------------------------------------------
+EQ-LAP-0004    Laptop                        Si
+EQ-PC-0003     PC escritorio                 Si
+EQ-MON-0002    Monitor                       Si
+EQ-IMP-0002    Impresora                     Si

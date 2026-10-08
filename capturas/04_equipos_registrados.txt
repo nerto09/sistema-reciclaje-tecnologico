@@ -1,0 +1,23 @@
+
+========================================================================
+  Equipos registrados en el sistema
+========================================================================
+Codigo         Tipo             Marca      Modelo                 Estado       Mov
+--------------------------------------------------------------------------------------------
+EQ-IMP-0001    Impresora        HP         LaserJet Pro M404      RETIRADO       2
+EQ-IMP-0002    Impresora        Epson      L3150                  ENTREGADO      5
+EQ-LAP-0001    Laptop           Dell       Latitude 3520          REASIGNADO     5
+EQ-LAP-0002    Laptop           HP         ProBook 450 G7         REASIGNADO     5
+EQ-LAP-0003    Laptop           Lenovo     ThinkPad E14           REASIGNADO     6
+EQ-LAP-0004    Laptop           Acer       Aspire 5               ENTREGADO      7
+EQ-LAP-0005    Laptop           HP         EliteBook 840          RETIRADO       2
+EQ-MON-0001    Monitor          Dell       P2419H                 REASIGNADO     5
+EQ-MON-0002    Monitor          LG         24MK430H               ENTREGADO      7
+EQ-MON-0003    Monitor          Samsung    F24T350FHL             RETIRADO       2
+EQ-PC-0001     PC escritorio    HP         EliteDesk 800          REASIGNADO     5
+EQ-PC-0002     PC escritorio    Dell       OptiPlex 3070          REASIGNADO     6
+EQ-PC-0003     PC escritorio    Lenovo     ThinkCentre M75        ENTREGADO      7
+EQ-PC-0004     PC escritorio    HP         ProDesk 400            REASIGNADO     5
+EQ-PC-0005     PC escritorio    Dell       Vostro 3681            RETIRADO       2
+
+Total: 15 equipos

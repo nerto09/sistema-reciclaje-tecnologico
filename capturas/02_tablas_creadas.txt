@@ -1,0 +1,20 @@
+=== CAPTURA 02 - Tablas creadas ===
+
+Tabla                            Cols    Filas
+----------------------------------------------
+ActasEntrega                        9        0
+BorradosSeguros                    12        0
+Departamentos                       3        6
+Equipos                            15        0
+EquiposEnActa                       4        0
+EstadosMovimiento                   4       11
+Evaluaciones                       10        0
+EvaluacionFisica                    5        0
+EvaluacionTecnica                   5        0
+GestoresRAEE                        7        4
+MetodosBorrado                      3        3
+Movimientos                         7        0
+Reparaciones                       11        0
+Responsables                        6        3
+
+Total: 14 tablas

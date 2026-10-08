@@ -1,0 +1,10 @@
+=== INDICADORES DEL PROYECTO (Cap. IV.7 T02) ===
+Calculados desde la BD - datos de prueba
+
+1. Equipos reutilizados                       -> 80.0 % (8 reutilizados / 10 evaluados)
+2. Equipos reparados                          -> 2 equipos recuperados por reparacion (RD$7,700.00 invertidos)
+3. RAEE gestionados correctamente             -> 4 equipos entregados = 34.50 kg de RAEE gestionados
+4. Borrado seguro documentado                 -> 100.0 % (4 constancias / 4 equipos que salieron)
+5. Permanencia promedio en almacen (dias)     -> 14.5 dias promedio en almacen temporal
+6. Compras evitadas (RD$)                     -> RD$272,500.00 de compras evitadas por reutilizacion
+7. Expedientes completos                      -> 33.3 % (5 expedientes cerrados / 15 equipos)

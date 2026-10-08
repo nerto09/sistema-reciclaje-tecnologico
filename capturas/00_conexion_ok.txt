@@ -1,0 +1,12 @@
+=== Conexion Python <-> SQL Server ===
+Driver ODBC : ODBC Driver 18 for SQL Server
+Server      : Cuervo
+Login       : CUERVO\Jhonniel
+Fecha       : 2026-09-26 20:55:31
+Version     : Microsoft SQL Server 2025 (RTM-GDR) (KB5122770) - 17.0.1135.8 (X64)
+
+=== Bases de datos de usuario existentes ===
+  CentroMedico                    creada 2026-09-15
+  Ejemplo                         creada 2026-09-16
+
+Estado GestionReciclajeTecnologico: NO EXISTE TODAVIA (se crea en Etapa 6).

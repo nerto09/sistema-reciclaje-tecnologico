@@ -1,0 +1,47 @@
+=== CAPTURA 07 - Constancias de borrado seguro (Anexo D) ===
+
+Equipo             : EQ-IMP-0002  (Impresora)
+  Tipo de soporte  : HDD 500 GB SATA
+  Metodo aplicado  : SOBREESCRITURA
+  Herramienta      : DBAN 2.3.0 (metodo DoD 5220.22-M)
+  Verificacion post: Si
+  Fecha            : 2026-09-10
+  Borrado por      : Inventario y TI
+  Verificado por   : Coordinador
+  Destino autoriz. : Ecologix, S.R.L.
+  Evidencia        : \\CUERVO\evidencias\borrado\EQ-IMP-0002.pdf
+
+Equipo             : EQ-LAP-0004  (Laptop)
+  Tipo de soporte  : HDD 500 GB SATA
+  Metodo aplicado  : SOBREESCRITURA
+  Herramienta      : DBAN 2.3.0 (metodo DoD 5220.22-M)
+  Verificacion post: Si
+  Fecha            : 2026-09-10
+  Borrado por      : Inventario y TI
+  Verificado por   : Coordinador
+  Destino autoriz. : Ecologix, S.R.L.
+  Evidencia        : \\CUERVO\evidencias\borrado\EQ-LAP-0004.pdf
+
+Equipo             : EQ-MON-0002  (Monitor)
+  Tipo de soporte  : Sin almacenamiento
+  Metodo aplicado  : DESTRUCCION_FISICA
+  Herramienta      : No aplica
+  Verificacion post: Si
+  Fecha            : 2026-09-10
+  Borrado por      : Inventario y TI
+  Verificado por   : Coordinador
+  Destino autoriz. : Ecologix, S.R.L.
+  Evidencia        : \\CUERVO\evidencias\borrado\EQ-MON-0002.pdf
+
+Equipo             : EQ-PC-0003  (PC escritorio)
+  Tipo de soporte  : HDD 500 GB SATA
+  Metodo aplicado  : SOBREESCRITURA
+  Herramienta      : DBAN 2.3.0 (metodo DoD 5220.22-M)
+  Verificacion post: Si
+  Fecha            : 2026-09-10
+  Borrado por      : Inventario y TI
+  Verificado por   : Coordinador
+  Destino autoriz. : Ecologix, S.R.L.
+  Evidencia        : \\CUERVO\evidencias\borrado\EQ-PC-0003.pdf
+
+Total constancias: 4

@@ -1,0 +1,19 @@
+=== CAPTURA 06 - Clasificacion final de los equipos ===
+
+  Reutilizable         :   5 equipo(s)
+  No recuperable       :   3 equipo(s)
+  Reparable            :   2 equipo(s)
+  ------------------------------
+  TOTAL evaluados      :  10
+
+Detalle por equipo:
+  EQ-LAP-0004    Laptop           -> No recuperable   -> Entrega a gestor autorizado
+  EQ-MON-0002    Monitor          -> No recuperable   -> Entrega a gestor autorizado
+  EQ-PC-0003     PC escritorio    -> No recuperable   -> Entrega a gestor autorizado
+  EQ-LAP-0003    Laptop           -> Reparable        -> Reparacion en taller interno de TI
+  EQ-PC-0002     PC escritorio    -> Reparable        -> Reparacion en taller interno de TI
+  EQ-LAP-0001    Laptop           -> Reutilizable     -> Reasignacion a Recursos Humanos
+  EQ-LAP-0002    Laptop           -> Reutilizable     -> Reasignacion a Almacen
+  EQ-MON-0001    Monitor          -> Reutilizable     -> Reasignacion a Ventas
+  EQ-PC-0001     PC escritorio    -> Reutilizable     -> Reasignacion a Ventas
+  EQ-PC-0004     PC escritorio    -> Reutilizable     -> Reasignacion a Contabilidad

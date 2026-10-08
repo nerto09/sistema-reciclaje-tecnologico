@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Power BI (cache temporales — mantenemos el .pbix)
+*.pbix.tmp
+*.pbix.lock
+
+# SQL Server local
+*.bak
+*.mdf
+*.ldf
+
+# Logs
+*.log

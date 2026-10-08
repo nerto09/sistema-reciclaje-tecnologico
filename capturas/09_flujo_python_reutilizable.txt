@@ -1,0 +1,18 @@
+
+========================================================================
+  Flujo del Anexo A -> EQ-LAP-0005  (HP EliteBook 840)
+========================================================================
+
+[Paso 3] Evaluacion tecnica
+  [OK] Movimiento registrado: EN_EVALUACION  |  Evaluacion tecnica iniciada
+
+[Paso 4] Clasificacion: Reutilizable
+  [OK] Movimiento registrado: CLASIFICADO_REUTILIZABLE  |  Clasificacion: Reutilizable
+
+[Paso 5a] Reasignacion dentro de la empresa
+  [OK] Movimiento registrado: REASIGNADO  |  Reasignado dentro de la empresa
+
+[Paso 6] Expediente cerrado
+  [OK] Movimiento registrado: CERRADO  |  Expediente cerrado (paso 5 Cap. IV.2)
+
+[OK] Flujo completado. Cambios persistidos en SQL Server.
